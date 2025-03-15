@@ -27,8 +27,8 @@ const currentView = computed(() => {
 <template>
 
   <main>
-    <Navbar />
     <div class="container">
+      <Navbar />
       <component :is="currentView" />
       
       <!-- dummy for footer -->
