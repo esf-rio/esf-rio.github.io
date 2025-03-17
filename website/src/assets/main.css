@@ -1,5 +1,7 @@
+@import url('../../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
 .text-esf {
-  color: rgba(29, 169, 122, 1.0);
+  color: rgb(29, 169, 122);
 }
 
 .background-esf {

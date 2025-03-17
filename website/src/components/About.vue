@@ -66,13 +66,35 @@ onBeforeUnmount(() => {
       <h1 class="text-esf">Valores</h1>
     </div>
   </div>
-  <div class="row">
+  <div class="row" v-if="!isMobile">
     <div class="col">
       <img src="../assets/about/valores-1.png" class="img-fluid" alt="Valor Responsabilidade Social" width="200" height="200">
     </div>
     <div class="col">
       <img src="../assets/about/valores-2.png" class="img-fluid" alt="Valor Sustentabilidade" width="200" height="200">
     </div>
+    <div class="col">
+      <img src="../assets/about/valores-3.png" class="img-fluid" alt="Valor Transparência" width="200" height="200">
+    </div>
+    <div class="col">
+      <img src="../assets/about/valores-4.png" class="img-fluid" alt="Valor Comprometimento" width="200" height="200">
+    </div>
+    <div class="col">
+      <img src="../assets/about/valores-5.png" class="img-fluid" alt="Valor Ética" width="200" height="200">
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center" v-if="isMobile">
+    <div class="col-4">
+      <img src="../assets/about/valores-1.png" class="img-fluid" alt="Valor Responsabilidade Social" width="200" height="200">
+    </div>
+    <div class="col-1">
+      <!-- dummy -->
+    </div>
+    <div class="col-4">
+      <img src="../assets/about/valores-2.png" class="img-fluid" alt="Valor Sustentabilidade" width="200" height="200">
+    </div>
+  </div>
+  <div class="row" v-if="isMobile">
     <div class="col">
       <img src="../assets/about/valores-3.png" class="img-fluid" alt="Valor Transparência" width="200" height="200">
     </div>

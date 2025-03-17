@@ -50,9 +50,39 @@
             <a class="nav-link" href="#">FAQ</a>
           </li> -->
         </ul>
+
+        <div class="row text-center">
+          <div class="col">
+            <a href="https://www.linkedin.com/company/esf-rio">
+              <i class="bi bi-linkedin esf-icon"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.instagram.com/esf.riodejaneiro/">
+              <i class="bi bi-instagram esf-icon"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://github.com/esf-rio/esf-rio.github.io">
+              <i class="bi bi-github esf-icon"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
 </template>
 
-<style scoped></style>
+<style scoped>
+  .esf-icon {
+    font-size: 1.5rem;
+    color: #3d393a;
+    /* color: #1da97a; */
+  }
+
+  .esf-icon:hover {
+    font-size: 1.5rem;
+    color: #1da97a;
+    /* color: #3d393a; */
+  }
+</style>
