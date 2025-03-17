@@ -83,6 +83,34 @@ onBeforeUnmount(() => {
       <img src="../assets/about/valores-5.png" class="img-fluid" alt="Valor Ética" width="200" height="200">
     </div>
   </div>
+
+  <div class="row mt-5">
+    <div class="col text-center">
+      <h1 class="text-esf">Linhas de Projetos</h1>
+    </div>
+  </div>
+  <div class="row mt-4 text-center">
+    <div class="col">
+      <img src="../assets/about/linha-projeto1.png" class="img-fluid" alt="Valor Responsabilidade Social" width="200" height="200">
+    </div>
+    <div class="col">
+      <img src="../assets/about/linha-projeto2.png" class="img-fluid" alt="Valor Sustentabilidade" width="200" height="200">
+    </div>
+    <div class="col">
+      <img src="../assets/about/linha-projeto3.png" class="img-fluid" alt="Valor Transparência" width="200" height="200">
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col">
+      <img src="../assets/about/linha-projeto4.png" class="img-fluid" alt="Valor Responsabilidade Social" width="200" height="200">
+    </div>
+    <div class="col">
+      <img src="../assets/about/linha-projeto5.png" class="img-fluid" alt="Valor Sustentabilidade" width="200" height="200">
+    </div>
+    <div class="col">
+      <img src="../assets/about/linha-projeto6.png" class="img-fluid" alt="Valor Transparência" width="200" height="200">
+    </div>
+  </div>
 </template>
 
 <style scoped>
