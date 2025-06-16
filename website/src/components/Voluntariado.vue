@@ -3,11 +3,11 @@ const currentYear = new Date().getFullYear();
 </script>
 
 <template>
-    <div class="fundo-fixo position-relative">
-        <section class="overlay-content row">
+    <div class="esf-image-background position-relative">
+        <section class="esf-image-color-background row">
             <div class="container">
                 <div class="row">
-                    <div class="text-start text-light d-flex justify-content-center align-items-center">
+                    <div class="text-start text-light d-flex justify-content-center">
                     <h1>Seja um voluntário</h1>
                     </div>
                 </div>
@@ -26,8 +26,8 @@ const currentYear = new Date().getFullYear();
         </div>
     </section>
 
-    <section class="row video-esf">
-        <div class="mb-4 col-12 col-md-8">
+    <section class="row">
+        <div class="col-12 col-md-8">
             <p class="mb-4">O trabalho voluntário tem grande impacto na sociedade. Voluntariar-se é um ato de amor e, junto à engenharia, podemos construir um mundo melhor, pois todos nós temos um papel importante na sociedade. Existem 03 formas para ser voluntário ESF: Voluntário fixo, Voluntário doador e parceiro.</p>
             <p class="mb-4">Se você tem interesse em participar ativamente dos projetos ou gestão do ESF-Rio, assista o vídeo institucional do Engenheiros Sem Fronteiras Brasil e entenda um pouco como funciona nosso trabalho.</p>
         </div>
@@ -36,7 +36,7 @@ const currentYear = new Date().getFullYear();
         </div>
     </section>
 
-    <section class="cinza row">
+    <section class="row" style="background-color: #F4F4F4">
         <div class="mb-4 col-12 col-md-4">
             <img class="image-overflow" decoding="async" src="https://esf-rio.org/wp-content/uploads/2021/05/Design-sem-nome-6-300x300.png" alt="">
         </div>
@@ -46,28 +46,93 @@ const currentYear = new Date().getFullYear();
         </div>
     </section>
 
-    <section class="verde row">
-        <div class="mb-4 col-12 col-md-6">
-            <h1 class="mb-4 pt-5 text-light text-center fw-semibold" style="color: rgba(29, 169, 122, 1); font-size: 190%;">Você também pode ser um voluntário digital!</h1>
-            <p class="text-light mb-4 pt-3">Se você está entusiasmado com nosso trabalho e deseja nos ajudar com a divulgação (curtindo, compartilhando), acompanhe nossas redes sociais.</p>
-        </div>
-        <div class="elementor-widget-container">
-            <div class="elementor-social-icons-wrapper elementor-grid" role="list">
-                <span class="elementor-grid-item" role="listitem">
-                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-f15fdfb" href="https://www.facebook.com/esf.riodejaneiro" target="_blank">
-                        <span class="elementor-screen-only">Facebook</span>
+    <section class="row" style="background-color: #1DA879">
+        <div class="row mb-0">
+            <div class="col-12 col-md-6 mb-5">
+                <div class="p-4">
+                    <div class="text-center text-light mt-4">
+                    <h1 class="fs-2">Você também pode ser um voluntário digital!</h1>
+                    </div>
+                    <div class="text-light mt-4 col-11">
+                    <p class="">Se você está entusiasmado com nosso trabalho e deseja nos ajudar com a divulgação (curtindo, compartilhando), <strong>acompanhe nossas redes sociais.</strong></p>
+                    </div>
+                </div>
+                <div class="row socials justify-content-center gap-1 ">
+                    <div class="col-1 bg-white rounded d-flex justify-content-center p-1">
+                        <a href="https://www.facebook.com/esf.riodejaneiro" target="_blank" class=" fs-3" style="color: #1da879;">
                         <i class="fab fa-facebook"></i>
-                    </a>
-                </span>
+                        </a>
+                    </div>
+                    <div class="col-1 bg-white rounded d-flex justify-content-center p-1">
+                        <a href="https://www.instagram.com/esf.riodejaneiro" target="_blank" class=" fs-3" style="color: #1da879;">
+                        <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-1 bg-white rounded d-flex justify-content-center p-1">
+                        <a href="https://www.linkedin.com/company/esf-rio/" target="_blank" class=" fs-3" style="color: #1da879;">
+                        <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col-1 bg-white rounded d-flex justify-content-center p-1">
+                        <a href="https://www.youtube.com/channel/UCr4PWofwcuoCntOydZ6lPoA" target="_blank" class=" fs-3" style="color: #1da879;">
+                        <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="mb-4 col-12 col-md-6"></div> <!--vazia pra ocupar espaço lateral-->
     </section>
+
+    <section class="row mb-4">
+        <div class="row mb-0">
+            <div class="col-12 col-md-6 mb-5">
+                <div class="">
+                    <div class="fs-1">
+                    <i class="fas fa-quote-left" style="position: relative; font-size: 4rem; top: 30px; color: gray; opacity: 0.1;"></i>
+                    </div>
+
+                    <p class="fst-italic">
+                        Meu objetivo na organização é crescer junto, é ver uma simples ideia se transformando em realidade e mudando a vida das pessoas.
+                    </p>
+
+                    <div class="d-flex align-items-center mt-4">
+                        <img src="https://esf-rio.org/wp-content/uploads/2021/05/Elizabeth-150x150.jpg" alt="Elizabeth Gomes" class="rounded-circle me-3" width="60" height="60" />
+
+                        <div>
+                            <p class="mb-0">Elizabeth Gomes</p>
+                            <small class="text-muted">Voluntária</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+                <div class="">
+                    <div class="fs-1">
+                    <i class="fas fa-quote-left" style="position: relative; font-size: 4rem; top: 30px; color: gray; opacity: 0.1;"></i>
+                    </div>
+
+                    <p class="fst-italic">
+                        Quero ajudar e impactar pessoas e crescer pessoal e profissionalmente.
+                    </p>
+
+                    <div class="d-flex align-items-center mt-4">
+                        <img src="https://esf-rio.org/wp-content/uploads/2021/05/WhatsApp-Image-2020-04-25-at-11.25.07-Thalita-Lopes-150x150.jpeg" alt="Thalita Lopes" class="rounded-circle me-3" width="60" height="60" />
+
+                        <div>
+                            <p class="mb-0">Elizabeth Gomes</p>
+                            <small class="text-muted">Voluntária</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </template>
 
 <style scoped>
 
-.fundo-fixo {
+.esf-image-background {
     background-image: url("../assets/about/esf-people.jpg");
     background-size: cover;
     background-position: center;
@@ -77,21 +142,9 @@ const currentYear = new Date().getFullYear();
     padding: 0;
 }
 
-.overlay-content {
+.esf-image-color-background {
     background-color: rgba(29, 169, 122, 0.65);
     padding: 7rem 0;
-}
-
-.cinza {
-    background-color: #F4F4F4;
-}
-
-.verde {
-    background-color: #1DA879;
-}
-
-.video-esf {
-    margin-bottom: 50px;
 }
 
 .image-overflow {
