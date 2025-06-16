@@ -119,7 +119,7 @@ const currentYear = new Date().getFullYear();
                         <img src="https://esf-rio.org/wp-content/uploads/2021/05/WhatsApp-Image-2020-04-25-at-11.25.07-Thalita-Lopes-150x150.jpeg" alt="Thalita Lopes" class="rounded-circle me-3" width="60" height="60" />
 
                         <div>
-                            <p class="mb-0">Elizabeth Gomes</p>
+                            <p class="mb-0">Thalita Lopes</p>
                             <small class="text-muted">Voluntária</small>
                         </div>
                     </div>
