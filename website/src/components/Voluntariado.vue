@@ -1,9 +1,8 @@
 <script setup lang="ts">
-const currentYear = new Date().getFullYear();
 </script>
 
 <template>
-    <div class="esf-image-background position-relative">
+    <div class="esf-image-background position-relative rounded">
         <section class="esf-image-color-background row">
             <div class="container">
                 <div class="row">
@@ -26,13 +25,13 @@ const currentYear = new Date().getFullYear();
         </div>
     </section>
 
-    <section class="row">
+    <section class="row video-esf">
         <div class="col-12 col-md-8">
             <p class="mb-4">O trabalho voluntário tem grande impacto na sociedade. Voluntariar-se é um ato de amor e, junto à engenharia, podemos construir um mundo melhor, pois todos nós temos um papel importante na sociedade. Existem 03 formas para ser voluntário ESF: Voluntário fixo, Voluntário doador e parceiro.</p>
             <p class="mb-4">Se você tem interesse em participar ativamente dos projetos ou gestão do ESF-Rio, assista o vídeo institucional do Engenheiros Sem Fronteiras Brasil e entenda um pouco como funciona nosso trabalho.</p>
         </div>
         <div class="mb-4 col-12 col-md-4">
-            <video class="elementor-video" style="width: 100%; height: 100%;" controls="true" src="https://esf-rio.org/wp-content/uploads/2021/05/A-engenharia-que-transforma-vidas.mp4"  preload="metadata" controlslist="nodownload" poster="https://esf-rio.org/wp-content/uploads/2020/05/845a5473-objetivos_port.png"></video>
+            <video class="elementor-video" style="width: 100%; height: 100%;" controls="true" src="../assets/volunteer/A-engenharia-que-transforma-vidas.mp4"  preload="metadata" controlslist="nodownload" poster="../assets/volunteer/845a5473-objetivos_port.png"></video>
         </div>
     </section>
 
@@ -133,7 +132,7 @@ const currentYear = new Date().getFullYear();
 <style scoped>
 
 .esf-image-background {
-    background-image: url("../assets/about/esf-people.jpg");
+    background-image: url("../assets/volunteer/Foto-Confraternização-scaled.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -151,6 +150,10 @@ const currentYear = new Date().getFullYear();
     margin-top: -50px; /* faz ela subir */
     z-index: 3;
     position: relative;
+}
+
+.video-esf {
+    margin-bottom: 50px;
 }
 
 </style>
