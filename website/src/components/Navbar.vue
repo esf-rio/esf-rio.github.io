@@ -37,9 +37,9 @@
               <li><a class="dropdown-item" href="#">Revista PROVER</a></li>
             </ul>
           </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link link-success" href="#">Transparência</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link link-success" href="#/transparency">Transparência</a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Contato</a>
           </li>

@@ -5,11 +5,13 @@ import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
 import About from './components/About.vue'
 import Team from './components/Team.vue'
+import Transparency from './components/Transparency.vue'
 
 const routes: Record<string, Component> = {
   '/': About,
   '/about': About,
-  '/team': Team
+  '/team': Team,
+  '/transparency': Transparency
 }
 
 const currentPath = ref(window.location.hash)
