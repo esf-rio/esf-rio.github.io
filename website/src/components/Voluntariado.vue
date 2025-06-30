@@ -37,7 +37,7 @@
 
     <section class="row" style="background-color: #F4F4F4">
         <div class="mb-4 col-12 col-md-4">
-            <img class="image-overflow" decoding="async" src="https://esf-rio.org/wp-content/uploads/2021/05/Design-sem-nome-6-300x300.png" alt="">
+            <img class="image-overflow" decoding="async" src="../assets/volunteer/Design-sem-nome-6-300x300.png" alt="">
         </div>
         <div class="mb-4 col-12 col-md-8">
             <h1 class="mb-4  fw-semibold pt-3" style="color: rgba(29, 169, 122, 1);">O que é ser voluntário?</h1>
@@ -95,7 +95,7 @@
                     </p>
 
                     <div class="d-flex align-items-center mt-4">
-                        <img src="https://esf-rio.org/wp-content/uploads/2021/05/Elizabeth-150x150.jpg" alt="Elizabeth Gomes" class="rounded-circle me-3" width="60" height="60" />
+                        <img src="../assets/volunteer/Elizabeth-150x150.jpg" alt="Elizabeth Gomes" class="rounded-circle me-3" width="60" height="60" />
 
                         <div>
                             <p class="mb-0">Elizabeth Gomes</p>
@@ -115,7 +115,7 @@
                     </p>
 
                     <div class="d-flex align-items-center mt-4">
-                        <img src="https://esf-rio.org/wp-content/uploads/2021/05/WhatsApp-Image-2020-04-25-at-11.25.07-Thalita-Lopes-150x150.jpeg" alt="Thalita Lopes" class="rounded-circle me-3" width="60" height="60" />
+                        <img src="../assets/volunteer/WhatsApp-Image-2020-04-25-at-11.25.07-Thalita-Lopes-150x150.jpeg" alt="Thalita Lopes" class="rounded-circle me-3" width="60" height="60" />
 
                         <div>
                             <p class="mb-0">Thalita Lopes</p>
