@@ -1,4 +1,20 @@
 <script setup lang="ts">
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+const isMobile = ref(false);
+
+const checkMobile = () => {
+  isMobile.value = window.innerWidth <= 767;
+};
+
+onMounted(() => {
+  checkMobile();
+  window.addEventListener('resize', checkMobile);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', checkMobile);
+});
 </script>
 
 <template>
@@ -36,13 +52,14 @@
     </section>
 
     <section class="row" style="background-color: #F4F4F4">
-        <div class="mb-4 col-12 col-md-4">
-            <img class="image-overflow" decoding="async" src="../assets/volunteer/Design-sem-nome-6-300x300.png" alt="">
+        <div :class="[isMobile ? 'pt-3' : '']" class="mb-4 col d-flex align-content-center justify-content-center flex-wrap">
+            <img class="" decoding="async" src="../assets/volunteer/Logo-colorida-sem-fundo-244x88.png" alt="">
         </div>
-        <div class="mb-4 col-12 col-md-8">
+        <div class="mb-4 col">
             <h1 class="mb-4  fw-semibold pt-3" style="color: rgba(29, 169, 122, 1);">O que é ser voluntário?</h1>
             <p class="mb-4">Ser voluntário ESF-Rio é poder contribuir com o crescimento da sociedade, ganhar aprendizado e crescimento para nossa vida profissional e pessoal. Ser voluntário ESF-Rio é investir nosso tempo, doar nossa paixão em prol a um mundo melhor. Ser voluntário ESF-Rio é criar conexões, comprometimento  e ajudar a construir comunidades fortes e sustentáveis no Rio de Janeiro.</p>
         </div>
+        
     </section>
 
     <section class="row" style="background-color: #1DA879">
@@ -95,7 +112,7 @@
                     </p>
 
                     <div class="d-flex align-items-center mt-4">
-                        <img src="../assets/volunteer/Elizabeth-150x150.jpg" alt="Elizabeth Gomes" class="rounded-circle me-3" width="60" height="60" />
+                       
 
                         <div>
                             <p class="mb-0">Elizabeth Gomes</p>
@@ -115,7 +132,7 @@
                     </p>
 
                     <div class="d-flex align-items-center mt-4">
-                        <img src="../assets/volunteer/WhatsApp-Image-2020-04-25-at-11.25.07-Thalita-Lopes-150x150.jpeg" alt="Thalita Lopes" class="rounded-circle me-3" width="60" height="60" />
+                        
 
                         <div>
                             <p class="mb-0">Thalita Lopes</p>
