@@ -36,7 +36,7 @@ const currentView = computed(() => {
       <!-- dummy for footer -->
       <div class="row mb-4"></div>
     </div>
-    <Footer />
+    <Footer/>
   </main>
 </template>
 

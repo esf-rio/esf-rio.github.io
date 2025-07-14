@@ -41,39 +41,45 @@ onBeforeUnmount(() => {
 
   <div class="row mb-4">
     <div class="col">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="">
         <div class="card-body">
-          <h5 class="text-esf">Fundação <i class="bi bi-linkedin esf-icon"></i> </h5>
+          <h5 class="text-esf">Fundação <i class="bi bi-building"></i> </h5>
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><a href="/transparency/Ata-de-Fundacao.pdf" class="card-link">Ata de fundação (PDF)</a></li>
           </ul>
         </div>
       </div>
     </div>
+  </div>
+  <div class="row mb-4">
     <div class="col">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="">
         <div class="card-body">
-          <h5 class="text-esf">Estatuto <i class="bi bi-linkedin esf-icon"></i> </h5>
+          <h5 class="text-esf">Estatuto <i class="bi bi-pencil"></i> </h5>
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><a href="/transparency/Estatuto-Social.pdf" class="card-link">Estatuto Social (PDF)</a></li>
           </ul>
         </div>
       </div>
     </div>
+  </div>
+  <div class="row mb-4">
     <div class="col">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="">
         <div class="card-body">
-          <h5 class="text-esf">Ato Normativo <i class="bi bi-linkedin esf-icon"></i> </h5>
+          <h5 class="text-esf">Ato Normativo <i class="bi bi-newspaper"></i> </h5>
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><a href="/transparency/ANC012025_Ato Normativo Conjunto membresia 24-25.pdf" class="card-link">Ato Normativo Conjunto nº1 29/01/2025 (PDF)</a></li>
           </ul>
         </div>
       </div>
     </div>
+  </div>
+  <div class="row mb-4">
     <div class="col">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="">
         <div class="card-body">
-          <h5 class="text-esf">Certidões <i class="bi bi-linkedin esf-icon"></i> </h5>
+          <h5 class="text-esf">Certidões <i class="bi bi-patch-check-fill"></i> </h5>
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><a href="/transparency/Registro-CNPJ-2022.pdf" class="card-link">Registro do CNPJ (PDF)</a></li>
           </ul>
@@ -82,14 +88,15 @@ onBeforeUnmount(() => {
     </div>
   </div>
 
+
   <div class="row mb-4">
-    <div class="col d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
+    <div class="col">
+      <div class="card" style="">
         <div class="card-body">
-          <h5 class="text-esf">Assembléia Geral <i class="bi bi-linkedin esf-icon"></i> </h5>
+          <h5 class="text-esf">Assembleia Geral <i class="bi bi-people-fill"></i> </h5>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="#" class="card-link">Assembléia Geral Ordinária - 25/01/2020 (PDF)</a></li>
-            <li class="list-group-item"><a href="#" class="card-link">Assembléia Geral Extraordinária - 29/08/2020 (PDF)</a></li>
+            <li class="list-group-item"><a href="/transparency/[site] documentos institucionais com dados anonimizados (A4) - Assembleia Geral - AGO-29-08-2020.pdf" class="card-link">Assembleia Geral Ordinária - 25/01/2020 (PDF)</a></li>
+            <li class="list-group-item"><a href="/transparency/[site] documentos institucionais com dados anonimizados (A4) - Assembleia Geral - AGE-25-01-2020.pdf" class="card-link">Assembleia Geral Extraordinária - 29/08/2020 (PDF)</a></li>
           </ul>
         </div>
       </div>
@@ -104,9 +111,6 @@ onBeforeUnmount(() => {
   height: 400px
 }
 
-.border-esf {
-  border-color: rgba(29, 169, 122, 1.0) !important;
-}
 
 .overlay {
   position: absolute;
@@ -117,12 +121,5 @@ onBeforeUnmount(() => {
   background-color: rgba(29, 169, 122, 0.8);
 }
 
-.img-responsive {
-  object-fit: none;
-  object-position: center;
-  width: 100%;
-  max-height: 160px;
-  margin-bottom: 1rem;
-  border-radius: 5%;
-}
+
 </style>
