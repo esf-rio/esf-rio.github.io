@@ -4,14 +4,19 @@ import type { Component } from 'vue'
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
 import About from './components/About.vue'
+import Partnership from './components/Partnership.vue'
 import Team from './components/Team.vue'
 import Transparency from './components/Transparency.vue'
+import Volunteer from './components/Volunteer.vue'
+
 
 const routes: Record<string, Component> = {
   '/': About,
   '/about': About,
   '/team': Team,
-  '/transparency': Transparency
+  '/transparency': Transparency,
+  '/partnership': Partnership,
+  '/volunteer': Volunteer
 }
 
 const currentPath = ref(window.location.hash)

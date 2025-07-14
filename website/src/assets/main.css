@@ -7,3 +7,8 @@
 .background-esf {
   background-color: rgba(29, 169, 122, 1.0);
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}

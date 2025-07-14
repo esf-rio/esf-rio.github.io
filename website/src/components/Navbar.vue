@@ -16,6 +16,12 @@
           <li class="nav-item">
             <a class="nav-link link-success" href="#/about">Sobre Nós</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link link-success" href="#/partnership">Parceria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-success" href="#/volunteer">Voluntariado</a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link link-success" href="#/team">Equipe</a>
           </li> -->

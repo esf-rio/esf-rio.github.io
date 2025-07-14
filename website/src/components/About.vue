@@ -30,7 +30,6 @@ onBeforeUnmount(() => {
       </div>
     </div>
   </div>
-
   <!-- ======= 'Quem Somos' desktop (init) ======= -->
   <div v-if="!isMobile" class="row mb-4">
     <div class="col">
