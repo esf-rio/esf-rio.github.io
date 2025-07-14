@@ -6,14 +6,17 @@ import Footer from './components/Footer.vue'
 import About from './components/About.vue'
 import Partnership from './components/Partnership.vue'
 import Team from './components/Team.vue'
-import Voluntariado from './components/Voluntariado.vue'
+import Transparency from './components/Transparency.vue'
+import Volunteer from './components/Volunteer.vue'
+
 
 const routes: Record<string, Component> = {
   '/': About,
   '/about': About,
-  '/partnership': Partnership,
   '/team': Team,
-  '/Voluntariado': Voluntariado
+  '/transparency': Transparency,
+  '/partnership': Partnership,
+  '/volunteer': Volunteer
 }
 
 const currentPath = ref(window.location.hash)
@@ -38,7 +41,7 @@ const currentView = computed(() => {
       <!-- dummy for footer -->
       <div class="row mb-4"></div>
     </div>
-    <Footer />
+    <Footer/>
   </main>
 </template>
 

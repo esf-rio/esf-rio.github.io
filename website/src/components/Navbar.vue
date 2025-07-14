@@ -20,7 +20,7 @@
             <a class="nav-link link-success" href="#/partnership">Parceria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-success" href="#/Voluntariado">Voluntariado</a>
+            <a class="nav-link link-success" href="#/volunteer">Voluntariado</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link link-success" href="#/team">Equipe</a>
@@ -43,9 +43,9 @@
               <li><a class="dropdown-item" href="#">Revista PROVER</a></li>
             </ul>
           </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link link-success" href="#">Transparência</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link link-success" href="#/transparency">Transparência</a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Contato</a>
           </li>
