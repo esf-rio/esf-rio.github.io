@@ -74,7 +74,7 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .esf-image-background {
-  background-image: url("../assets/about/esf-people.jpg");
+  background-image: url("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/esf-people.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
