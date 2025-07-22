@@ -21,7 +21,7 @@ onBeforeUnmount(() => {
   <div class="row mb-4">
     <div class="col">
       <div class="position-relative text-center">
-        <img src="../assets/about/esf-people.jpg" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Grupo de voluntários">
+        <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/esf-people.jpg" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Grupo de voluntários">
         <div class="overlay rounded"></div>
         <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
           <h1 class="text-light">Inspirando pessoas,</h1>
