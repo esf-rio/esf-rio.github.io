@@ -33,20 +33,20 @@
               <li><a class="dropdown-item" href="#">Voluntariado</a></li>
               <li><a class="dropdown-item" href="#">Parceria</a></li>
             </ul>
-          </li>
+          </li>-->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle link-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Projetos
-            </a>
+            </a> 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">E Tá Nóis (COVID-19)</a></li>
-              <li><a class="dropdown-item" href="#">Revista PROVER</a></li>
+              <li><a class="dropdown-item link-success" href="#/covid">(COVID-19)</a></li>
+              <li><a class="dropdown-item link-success" href="#/prover">Revista PROVER</a></li>
             </ul>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#/transparency">Transparência</a>
           </li>
           <!-- <li class="nav-item">
+            <a class="nav-link link-success" href="#/transparency">Transparência</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Contato</a>
           </li>
           <li class="nav-item">

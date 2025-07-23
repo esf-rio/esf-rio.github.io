@@ -153,7 +153,6 @@ onBeforeUnmount(() => {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: absolute;
     overflow: hidden;
     padding: 0;
 }

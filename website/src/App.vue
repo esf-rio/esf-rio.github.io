@@ -8,6 +8,8 @@ import Partnership from './components/Partnership.vue'
 import Team from './components/Team.vue'
 import Transparency from './components/Transparency.vue'
 import Volunteer from './components/Volunteer.vue'
+import Covid from './components/Covid.vue'
+import Prover from './components/Prover.vue'
 
 
 const routes: Record<string, Component> = {
@@ -16,7 +18,9 @@ const routes: Record<string, Component> = {
   '/team': Team,
   '/transparency': Transparency,
   '/partnership': Partnership,
-  '/volunteer': Volunteer
+  '/volunteer': Volunteer,
+  '/covid': Covid,
+  '/prover': Prover
 }
 
 const currentPath = ref(window.location.hash)
