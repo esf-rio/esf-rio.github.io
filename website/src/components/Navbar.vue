@@ -22,6 +22,9 @@
           <li class="nav-item">
             <a class="nav-link link-success" href="#/volunteer">Voluntariado</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link link-success" href="#/faq">F.A.Q.</a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link link-success" href="#/team">Equipe</a>
           </li> -->
