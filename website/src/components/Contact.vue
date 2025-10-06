@@ -28,7 +28,7 @@ onBeforeUnmount(() => {
   </div>
 
 
-  <div class="row justify-content-center mt-4">
+  <div class="row justify-content-center mt-5">
     <div class="col-12 col-md-10 d-flex flex-column">
       <div class="mb-4">
         <img src="../assets/contact/Foto-voluntario-1024x768.jpg" alt="Logo" class="img-fluid"
@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
   </div>
 
 
-  <div class="row g-1 mt-4">
+  <div class="row g-1 mt-5">
     <div class="col-custom">
       <img src="../assets/contact/people/Esf_Filipe_New-1024x1024.png" class="img-fluid" alt="Foto 1">
     </div>

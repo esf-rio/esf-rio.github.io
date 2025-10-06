@@ -48,7 +48,7 @@ onBeforeUnmount(() => {
 
   <div class="row mb-4">
     <div class="col text-center">
-      <img src="../assets/prover/845a5473-objetivos_port-768x484.png" class="img-fluid" style="width: 600px;" alt="Imagem Logo Prover" />
+      <img data-cy="logo" src="../assets/prover/845a5473-objetivos_port-768x484.png" class="img-fluid" style="width: 600px;" alt="Imagem Logo Prover" />
     </div>
   </div>
 

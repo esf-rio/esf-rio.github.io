@@ -21,15 +21,15 @@ FROM ubuntu:25.04
 WORKDIR app
 COPY --from=build /app/dist .
 
-RUN DEBIAN_FRONTEND=noninteractive TZ=America/Sao_Paulo apt-get -y install tzdata
-
 RUN apt update
 
-RUN apt install nginx -y
-#RUN apt install vim -y (nao necessario devido ao comando abaixo)
-#RUN echo 'server { listen 80; server_name localhost; root /app; index index.html; location / { try_files $uri $uri/ =404; } }' > /etc/nginx/conf.d/website.conf
+RUN DEBIAN_FRONTEND=noninteractive TZ=America/Sao_Paulo apt-get -y install tzdata
 
-RUN cat << 'EOT' > /etc/nginx/conf.d/website.conf
+RUN apt install nginx sudo -y
+
+COPY docker/nginx.conf /etc/nginx/nginx.conf
+
+RUN cat << 'EOF' > /etc/nginx/conf.d/website.conf
 server {
     listen 80;
     server_name localhost;
@@ -41,4 +41,16 @@ server {
         try_files $uri $uri/ =404;
     }
 }
-EOT
+EOF
+
+RUN useradd esf-user
+RUN mkdir /var/run/nginx
+RUN chown esf-user:esf-user -R /var/lib/nginx
+RUN chown esf-user:esf-user -R /var/log/nginx
+RUN chown esf-user:esf-user -R /var/run/nginx
+RUN echo "esf-user ALL=(root) /sbin/nginx" > /etc/sudoers.d/esf-user.sudoers
+USER esf-user
+
+ENTRYPOINT ["/sbin/nginx"]
+
+CMD ["-g", "daemon off;"]
