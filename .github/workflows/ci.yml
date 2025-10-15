@@ -29,4 +29,5 @@ jobs:
       - name: Run Application
         run: |
           docker run -d -p 8080:80 -it esf-website:0.0.1
-          ss -tunl 
+          docker ps
+          ss -tunl
