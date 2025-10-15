@@ -29,19 +29,19 @@ RUN apt install nginx sudo -y
 
 COPY docker/nginx.conf /etc/nginx/nginx.conf
 
-RUN cat << 'EOF' > /etc/nginx/conf.d/website.conf
-server {
-    listen 80;
-    server_name localhost;
+#RUN cat << 'EOF' > /etc/nginx/conf.d/website.conf \
+#server { \
+#    listen 80; \
+ #   server_name localhost; \
+ #   root /app; \
+  #  index index.html; \
+  #  location / { \
+ #       try_files $uri $uri/ =404; \
+ #   } \
+#} \
+#EOF;
 
-    root /app;
-    index index.html;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
-}
-EOF
+COPY docker/website.conf /etc/nginx/conf.d/website.conf
 
 RUN useradd esf-user
 RUN mkdir /var/run/nginx
