@@ -21,16 +21,16 @@ jobs:
         run: |
           apt-get update
           apt-get install -y docker.io
-      # - name: Build Application
-      #   run: |
-      #     cd website
-      #     docker build -t esf-website:0.0.1 .
-      #     docker image ls
-      # - name: Run Application
-      #   run: |
-      #     docker run -d -p 8080:80 -it esf-website:0.0.1
-      #     docker ps
-      #     ss -tunl
+      - name: Build Application
+        run: |
+          cd website
+          docker build -t esf-website:0.0.1 .
+          docker image ls
+      - name: Run Application
+        run: |
+          docker run -d -p 8080:80 -it esf-website:0.0.1
+          docker ps
+          ss -tunl
       - name: Install NPM
         run: |
           apt update
@@ -39,7 +39,9 @@ jobs:
           npm -v
       - name: Install Cypress
         run: |
-          cd website
           npm install cypress --save-dev
           npx cypress --help
+      - name: Run Test
+        run: |
+          npx cypress run
           
