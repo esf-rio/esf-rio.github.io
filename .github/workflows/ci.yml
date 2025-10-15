@@ -4,6 +4,12 @@ on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
+    services:
+      docker:
+        image: docker:dind
+        options: --privileged --shm-size=2g
+        volumes:
+          - /var/run/docker.sock:/var/run/docker.sock:ro
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
@@ -17,3 +23,13 @@ jobs:
           ls ${{ github.workspace }}
           echo "Hello World"
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      
+      - name: Install Docker
+        run: |
+          apt-get update
+          apt-get install -y docker.io
+
+      - name: Test Docker
+        run: |
+          docker version
+          docker info
