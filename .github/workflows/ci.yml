@@ -37,3 +37,9 @@ jobs:
           apt install nodejs -y
           apt install npm -y
           npm -v
+      - name: Install Cypress
+        run: |
+          cd website
+          npm install cypress --save-dev
+          npx cypress --help
+          
