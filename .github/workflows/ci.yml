@@ -31,13 +31,10 @@ jobs:
           docker run -d -p 8080:80 -it esf-website:0.0.1
           docker ps
           ss -tunl
-      - name: Install NPM
-        run: |
-          apt update
-          apt install nodejs -y
-          apt install npm -y
-          npm -v
-          nodejs -v
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Install Cypress
         run: |
           cd website
