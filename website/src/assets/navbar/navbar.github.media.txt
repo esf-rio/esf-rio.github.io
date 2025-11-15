@@ -1,0 +1,3 @@
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/navbar/
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/navbar/esf-logo.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/navbar/navbar.github.media.txt

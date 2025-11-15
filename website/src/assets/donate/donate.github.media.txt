@@ -1,0 +1,4 @@
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/donate/
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/donate/donate-background.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/donate/donate.github.media.txt
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/donate/pix.png

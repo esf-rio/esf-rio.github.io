@@ -21,7 +21,7 @@ onBeforeUnmount(() => {
   <div class="row mb-4">
     <div class="col">
       <div class="position-relative text-center">
-        <img src="../assets/donate/donate-background.png" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Doação">
+        <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/donate/donate-background.png" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Doação">
         <div class="overlay rounded"></div>
         <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
           <h2 class="text-light">Pequeno Gesto,</h2>
@@ -40,8 +40,8 @@ onBeforeUnmount(() => {
     <div class="col">
       <h1 class="text-esf text-center">Um Pix de Solidariedade</h1>
       <div class="text-center mb-4">
-        <img v-if="isMobile" src="../assets/donate/pix.png" class="img-fluid img-responsive w-50" alt="Imagem Pix">
-        <img v-if="!isMobile" src="../assets/donate/pix.png" class="img-fluid img-responsive w-25" alt="Imagem Pix">
+        <img v-if="isMobile" src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/donate/pix.png" class="img-fluid img-responsive w-50" alt="Imagem Pix">
+        <img v-if="!isMobile" src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/donate/pix.png" class="img-fluid img-responsive w-25" alt="Imagem Pix">
       </div>
       <div class="pt-4">
         <table class="table">

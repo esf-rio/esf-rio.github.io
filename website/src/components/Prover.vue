@@ -21,7 +21,7 @@ onBeforeUnmount(() => {
 
   <div class="row mb-4">
     <div class="col text-center">
-      <img src="../assets/prover/Logo-PROVER.png" class="img-fluid" style="width: 650px;" alt="Imagem Logo Prover" />
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/prover/Logo-PROVER.png" class="img-fluid" style="width: 650px;" alt="Imagem Logo Prover" />
     </div>
   </div>
 
@@ -48,7 +48,7 @@ onBeforeUnmount(() => {
 
   <div class="row mb-4">
     <div class="col text-center">
-      <img data-cy="logo" src="../assets/prover/845a5473-objetivos_port-768x484.png" class="img-fluid" style="width: 600px;" alt="Imagem Logo Prover" />
+      <img data-cy="logo" src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/prover/845a5473-objetivos_port-768x484.png" class="img-fluid" style="width: 600px;" alt="Imagem Logo Prover" />
     </div>
   </div>
 
@@ -100,7 +100,7 @@ onBeforeUnmount(() => {
           </p>
         </div>
         <div class="col-11 col-md-4 text-center">
-            <img src="../assets/prover/site-pagina-prover-parceiros-200-x-400-px-200-x-300-px.png" class="img-fluid" :class="isMobile ? 'd-block mx-auto mt-3' : ''" alt="Prover Partners">
+            <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/prover/site-pagina-prover-parceiros-200-x-400-px-200-x-300-px.png" class="img-fluid" :class="isMobile ? 'd-block mx-auto mt-3' : ''" alt="Prover Partners">
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@ onBeforeUnmount(() => {
 <style scoped>
 
 .prover-image-background {
-  background-image: url("../assets/prover/site-titulos-das-paginas.png");
+  background-image: url("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/prover/site-titulos-das-paginas.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -143,7 +143,7 @@ onBeforeUnmount(() => {
 }
 
 .prover-image-background-2 {
-  background-image: url("../assets/prover/site-corpo-das-paginas-1.png");
+  background-image: url("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/prover/site-corpo-das-paginas-1.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
