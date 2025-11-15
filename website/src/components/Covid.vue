@@ -39,7 +39,7 @@ onBeforeUnmount(() => {
       <p class="" style="font-size: 16px;text-align: justify;"><strong>Com isso, nasceu o projeto E TÁ NÓIS, que visou a produção de um gel antisséptico alternativo ao álcool gel 70%, promovido pela OMS e ANVISA, bem como sua distribuição entre famílias em situação de vulnerabilidade social dos quilombos e comunidades cariocas.</strong></p>
     </div>
     <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
-      <img src="../assets/covid/ETANOIS-03-1024x1008.png" class="img-fluid" width="350" alt="Imagem Logo Prover" />
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/ETANOIS-03-1024x1008.png" class="img-fluid" width="350" alt="Imagem Logo Prover" />
     </div>
   </div>
 
@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
           <div class="bg-white rounded p-4 w-75">
             <div class="custom-divider my-3 mx-auto" style="color: rgba(51, 65, 85, 0.3);"></div>
             <div class="ratio ratio-16x9">
-              <video class="elementor-video" style="width: 100%; height: 100%;" controls="true" src="../assets/covid/[CATARSE] E ta nóis contra o corona!_20250723_000856.mp4"  preload="metadata" controlslist="nodownload" poster="../assets/covid/ETANOIS-03-1024x1008.png"></video>
+              <video class="elementor-video" style="width: 100%; height: 100%;" controls="true" src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/[CATARSE]%20E%20ta%20nóis%20contra%20o%20corona!_20250723_000856.mp4"  preload="metadata" controlslist="nodownload" poster="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/ETANOIS-03-1024x1008.png"></video>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
       <p class="mb-4" style="font-size: 16px; text-align: justify;">As primeiras ONGs com as quais atumos foram: a Associação Beneficente AMAR (comunidades na região do Grajaú e Duque de Caxias), Associação Cultural do Quilombo do Camorim (ACUQCA) (Quilombo do Camorim), Cooperativa Transvida (Complexo da Penha) e Frente de Mobilização da Maré (Complexo da Maré).</p>
     </div>
     <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
-      <img src="../assets/covid/Kit_Logo_Etanois_vertical-X-ESF-Rio.png" class="img-fluid" width="250" alt="Imagem Logo Prover" />
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/Kit_Logo_Etanois_vertical-X-ESF-Rio.png" class="img-fluid" width="250" alt="Imagem Logo Prover" />
     </div>
   </div>
 
@@ -102,56 +102,56 @@ onBeforeUnmount(() => {
 
       <div class="row">
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/producao/1-1-1024x1024.png" class="img-fluid" alt="Foto 1">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/1-1-1024x1024.png" class="img-fluid" alt="Foto 1">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/producao/2-1-1024x1024.png" class="img-fluid" alt="Foto 2">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/2-1-1024x1024.png" class="img-fluid" alt="Foto 2">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/producao/3-1-1024x1024.png" class="img-fluid" alt="Foto 3">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/3-1-1024x1024.png" class="img-fluid" alt="Foto 3">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/producao/4-1-1024x1024.png" class="img-fluid" alt="Foto 4">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/4-1-1024x1024.png" class="img-fluid" alt="Foto 4">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/producao/5-1-1024x1024.png" class="img-fluid" alt="Foto 5">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/5-1-1024x1024.png" class="img-fluid" alt="Foto 5">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/producao/6-1-1024x1024.png" class="img-fluid" alt="Foto 6">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/6-1-1024x1024.png" class="img-fluid" alt="Foto 6">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/producao/7-1-1024x1024.png" class="img-fluid" alt="Foto 7">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/7-1-1024x1024.png" class="img-fluid" alt="Foto 7">
         </div>
         <div class="col-6 col-md-3 mb-5">
-          <img src="../assets/covid/producao/8-1-1024x1024.png" class="img-fluid" alt="Foto 8">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/producao/8-1-1024x1024.png" class="img-fluid" alt="Foto 8">
         </div>
       </div>
       <h2 class="mb-4 fw-light " style="color:rgba(29, 169, 122, 1)"><strong>Distribuição</strong></h2>
 
       <div class="row">
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/1-1024x1024.png" class="img-fluid" alt="Foto 1">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/1-1024x1024.png" class="img-fluid" alt="Foto 1">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/2-1024x1024.png" class="img-fluid" alt="Foto 2">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/2-1024x1024.png" class="img-fluid" alt="Foto 2">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/3-1024x1024.png" class="img-fluid" alt="Foto 3">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/3-1024x1024.png" class="img-fluid" alt="Foto 3">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/4-1024x1024.png" class="img-fluid" alt="Foto 4">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/4-1024x1024.png" class="img-fluid" alt="Foto 4">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/5-1024x1024.png" class="img-fluid" alt="Foto 5">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/5-1024x1024.png" class="img-fluid" alt="Foto 5">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/6-1024x1024.png" class="img-fluid" alt="Foto 6">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/6-1024x1024.png" class="img-fluid" alt="Foto 6">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/7-1024x1024.png" class="img-fluid" alt="Foto 7">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/7-1024x1024.png" class="img-fluid" alt="Foto 7">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img src="../assets/covid/distribuicao/8-1024x1024.png" class="img-fluid" alt="Foto 8">
+          <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/distribuicao/8-1024x1024.png" class="img-fluid" alt="Foto 8">
         </div>
       </div>
     </div>
@@ -161,7 +161,7 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .cover-image-background {
-  background-image: url("../assets/covid/CAPACOVID_Prancheta-1.png");
+  background-image: url("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/CAPACOVID_Prancheta-1.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -169,7 +169,7 @@ onBeforeUnmount(() => {
 }
 
 .covid-image-background {
-  background-image: url("../assets/covid/etanois2-03.png");
+  background-image: url("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/covid/etanois2-03.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;

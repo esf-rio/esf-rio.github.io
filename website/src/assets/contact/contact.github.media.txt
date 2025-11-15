@@ -1,0 +1,7 @@
+# Command executed inside of the assets/about folder:
+#
+# $ ls -lha | awk '{str = sprintf("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/contact/%s", $9)} \ 
+# {print str}' > contact.github.media.txt
+
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/contact/Foto-voluntario-1024x768.jpg
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/contact/Galera-nova-AGE-scaled.jpg

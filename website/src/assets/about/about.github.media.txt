@@ -1,0 +1,23 @@
+# Command executed inside of the assets/about folder:
+#
+# $ ls -lha | awk '{str = sprintf("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/%s", $9)} \ 
+# {print str}' > about.github.media.txt
+
+
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/about.github.media.txt
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/esf-people.jpg
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/Galera-nova-AGE-scaled.jpg
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/linha-projeto1.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/linha-projeto2.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/linha-projeto3.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/linha-projeto4.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/linha-projeto5.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/linha-projeto6.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/missao.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/quem-somos.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/valores-1.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/valores-2.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/valores-3.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/valores-4.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/valores-5.png
+https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/about/visao.png

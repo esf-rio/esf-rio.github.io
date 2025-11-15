@@ -21,7 +21,7 @@ onBeforeUnmount(() => {
   <div class="row mb-4">
     <div class="col">
       <div class="position-relative text-center">
-        <img src="../assets/team/team-background.jpg" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Equipe">
+        <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/team-background.jpg" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Equipe">
         <div class="overlay rounded"></div>
         <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
           <h1 class="text-light">Equipe</h1>
@@ -32,45 +32,45 @@ onBeforeUnmount(() => {
 
   <div v-if="!isMobile" class="row g-1 mt-5">
     <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Filipe_New-1024x1024.png" class="img-fluid" alt="Filipe Amaral, Diretor Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Filipe_New-1024x1024.png" class="img-fluid" alt="Filipe Amaral, Diretor Geral">
     </div>
     <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Cladice_New-1024x1024.png" class="img-fluid" alt="Cládice Diniz, Vice-Diretora">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Cladice_New-1024x1024.png" class="img-fluid" alt="Cládice Diniz, Vice-Diretora">
     </div>
     <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Roberta_New-1024x1024.png" class="img-fluid" alt="Roberta Meziat, Diretora Financeira">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Roberta_New-1024x1024.png" class="img-fluid" alt="Roberta Meziat, Diretora Financeira">
     </div>
     <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Ane_New-1024x1024.png" class="img-fluid" alt="Ane Peixoto, Diretora de Comunicação e Marketing">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Ane_New-1024x1024.png" class="img-fluid" alt="Ane Peixoto, Diretora de Comunicação e Marketing">
     </div>
     <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Camilla_New-1024x1024.png" class="img-fluid" alt="Camilla Nascimento, Diretora de Projetos">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Camilla_New-1024x1024.png" class="img-fluid" alt="Camilla Nascimento, Diretora de Projetos">
     </div>
   </div>
 
   <div v-if="isMobile" class="row g-1 mt-5">
     <div class="col">
-      <img src="../assets/contact/people/Esf_Filipe_New-1024x1024.png" class="img-fluid" alt="Foto 1">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Filipe_New-1024x1024.png" class="img-fluid" alt="Foto 1">
     </div>
   </div>
   <div v-if="isMobile" class="row g-1 mt-5">
     <div class="col">
-      <img src="../assets/contact/people/Esf_Cladice_New-1024x1024.png" class="img-fluid" alt="Foto 2">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Cladice_New-1024x1024.png" class="img-fluid" alt="Foto 2">
     </div>
   </div>
   <div v-if="isMobile" class="row g-1 mt-5">
     <div class="col">
-      <img src="../assets/contact/people/Esf_Roberta_New-1024x1024.png" class="img-fluid" alt="Foto 3">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Roberta_New-1024x1024.png" class="img-fluid" alt="Foto 3">
     </div>
   </div>
   <div v-if="isMobile" class="row g-1 mt-5">
     <div class="col">
-      <img src="../assets/contact/people/Esf_Ane_New-1024x1024.png" class="img-fluid" alt="Foto 4">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Ane_New-1024x1024.png" class="img-fluid" alt="Foto 4">
     </div>
   </div>
   <div v-if="isMobile" class="row g-1 mt-5">
     <div class="col">
-      <img src="../assets/contact/people/Esf_Camilla_New-1024x1024.png" class="img-fluid" alt="Foto 5">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/Esf_Camilla_New-1024x1024.png" class="img-fluid" alt="Foto 5">
     </div>
   </div>
 
@@ -80,7 +80,7 @@ onBeforeUnmount(() => {
 
   <div v-if="!isMobile" class="row mt-5">
     <div class="col-4 text-center d-flex align-items-center justify-content-center">
-      <img src="../assets/team/diretoria_geral.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/diretoria_geral.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
     <div class="col">
       <p class="fs-6 lh-sm mb-2">
@@ -130,7 +130,7 @@ onBeforeUnmount(() => {
 
   <div v-if="isMobile"  class="row mt-5 d-flex justify-content-center">
     <div class="col-4 text-center">
-      <img src="../assets/team/diretoria_geral.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/diretoria_geral.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
   </div>
   <div v-if="isMobile"  class="row mt-5">
@@ -186,7 +186,7 @@ onBeforeUnmount(() => {
 
   <div v-if="!isMobile" class="row mt-5">
     <div class="col-4 text-center">
-      <img src="../assets/team/gestao_pessoas.png" class="w-50 rounded-circle" alt="Imagem Gestão de Pessoas">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/gestao_pessoas.png" class="w-50 rounded-circle" alt="Imagem Gestão de Pessoas">
     </div>
     <div class="col">
       <p class="fs-6 lh-sm mb-2">
@@ -211,7 +211,7 @@ onBeforeUnmount(() => {
 
   <div v-if="isMobile"  class="row mt-5 d-flex justify-content-center">
     <div class="col-4 text-center">
-      <img src="../assets/team/gestao_pessoas.png" class="w-100 rounded-circle" alt="Imagem Gestão de Pessoas">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/gestao_pessoas.png" class="w-100 rounded-circle" alt="Imagem Gestão de Pessoas">
     </div>
   </div>
   <div v-if="isMobile"  class="row mt-5">
@@ -242,7 +242,7 @@ onBeforeUnmount(() => {
 
   <div v-if="!isMobile" class="row mt-5">
     <div class="col-4 text-center">
-      <img src="../assets/team/projetos.png" class="w-50 rounded-circle" alt="Imagem Projetos">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/projetos.png" class="w-50 rounded-circle" alt="Imagem Projetos">
     </div>
     <div class="col">
       <p class="fs-6 lh-sm mb-2">
@@ -275,7 +275,7 @@ onBeforeUnmount(() => {
 
   <div v-if="isMobile"  class="row mt-5 d-flex justify-content-center">
     <div class="col-4 text-center">
-      <img src="../assets/team/projetos.png" class="w-100 rounded-circle" alt="Imagem Projetos">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/projetos.png" class="w-100 rounded-circle" alt="Imagem Projetos">
     </div>
   </div>
   <div v-if="isMobile"  class="row mt-5">
@@ -314,7 +314,7 @@ onBeforeUnmount(() => {
 
   <div v-if="!isMobile" class="row mt-5">
     <div class="col-4 text-center">
-      <img src="../assets/team/comunicacao_marketing.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/comunicacao_marketing.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
     <div class="col">
       <p class="fs-6 lh-sm mb-2">
@@ -347,7 +347,7 @@ onBeforeUnmount(() => {
 
   <div v-if="isMobile"  class="row mt-5 d-flex justify-content-center">
     <div class="col-4 text-center">
-      <img src="../assets/team/comunicacao_marketing.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/comunicacao_marketing.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
   </div>
   <div v-if="isMobile"  class="row mt-5">
@@ -386,7 +386,7 @@ onBeforeUnmount(() => {
 
   <div v-if="!isMobile" class="row mt-5">
     <div class="col-4 text-center">
-      <img src="../assets/team/gestao_estrategica_processos.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/gestao_estrategica_processos.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
     <div class="col">
       <p class="fs-6 lh-sm mb-2">
@@ -415,7 +415,7 @@ onBeforeUnmount(() => {
 
   <div v-if="isMobile"  class="row mt-5 d-flex justify-content-center">
     <div class="col-4 text-center">
-      <img src="../assets/team/gestao_estrategica_processos.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/gestao_estrategica_processos.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
   </div>
   <div v-if="isMobile"  class="row mt-5">
@@ -450,7 +450,7 @@ onBeforeUnmount(() => {
 
   <div v-if="!isMobile" class="row mt-5">
     <div class="col-4 text-center">
-      <img src="../assets/team/financeiro.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/financeiro.png" class="w-50 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
     <div class="col">
       <p class="fs-6 lh-sm mb-2">
@@ -487,7 +487,7 @@ onBeforeUnmount(() => {
 
   <div v-if="isMobile"  class="row mt-5 d-flex justify-content-center">
     <div class="col-4 text-center">
-      <img src="../assets/team/financeiro.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/team/financeiro.png" class="w-100 rounded-circle" alt="Imagem Diretoria Geral">
     </div>
   </div>
   <div v-if="isMobile"  class="row mt-5">

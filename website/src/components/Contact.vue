@@ -22,7 +22,7 @@ onBeforeUnmount(() => {
 <div class="row mb-4">
     <div class="col">
       <div class="position-relative text-center">
-        <img src="../assets/contact/Galera-nova-AGE-scaled.jpg" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Doação">
+        <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/contact/Galera-nova-AGE-scaled.jpg" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Doação">
         <div class="overlay rounded"></div>
         <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
           <h1 class="text-light">Contato</h1>
@@ -32,7 +32,7 @@ onBeforeUnmount(() => {
   </div>
   <div class="row mt-5">
     <div class="col mb-4" v-if="!isMobile">
-      <img src="../assets/contact/Foto-voluntario-1024x768.jpg" alt="Logo" class="img-fluid"
+      <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/contact/Foto-voluntario-1024x768.jpg" alt="Logo" class="img-fluid"
         style="width: 500px;">
     </div>
     <div class="col mb-4">
@@ -78,7 +78,7 @@ onBeforeUnmount(() => {
 }
 
 .esf-image-background {
-  background-image: url("../assets/contact/Galera-nova-AGE-scaled.jpg");
+  background-image: url("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/contact/Galera-nova-AGE-scaled.jpg");
   background-size: cover;
   background-position: center -8em;
   background-attachment: fixed;

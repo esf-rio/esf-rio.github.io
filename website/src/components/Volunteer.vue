@@ -56,8 +56,8 @@ onBeforeUnmount(() => {
     </div>
     <div class="col-12 col-md-4">
       <video class="elementor-video" style="width: 100%; height: 100%;" controls="true"
-        src="../assets/volunteer/A-engenharia-que-transforma-vidas.mp4" preload="metadata" controlslist="nodownload"
-        poster="../assets/volunteer/845a5473-objetivos_port.png"></video>
+        src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/volunteer/A-engenharia-que-transforma-vidas.mp4" preload="metadata" controlslist="nodownload"
+        poster="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/volunteer/845a5473-objetivos_port.png"></video>
     </div>
   </div>
 
@@ -65,7 +65,7 @@ onBeforeUnmount(() => {
     <div class="row rounded" style="background-color: #F4F4F4">
       <div :class="isMobile ? 'pt-3' : ''"
         class="mb-4 col d-flex align-content-center justify-content-center flex-wrap">
-        <img class="" decoding="async" src="../assets/volunteer/Logo-colorida-sem-fundo-244x88.png" alt="">
+        <img class="" decoding="async" src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/volunteer/Logo-colorida-sem-fundo-244x88.png" alt="">
       </div>
       <div class="mb-4 col">
         <h1 class="mb-4  fw-semibold pt-3" style="color: rgba(29, 169, 122, 1);">O que é ser voluntário?</h1>
@@ -153,7 +153,7 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .esf-image-background {
-  background-image: url("../assets/volunteer/Foto-Confraternização-scaled.jpg");
+  background-image: url("https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/volunteer/Foto-Confraternização-scaled.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

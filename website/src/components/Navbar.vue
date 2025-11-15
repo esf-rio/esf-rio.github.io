@@ -6,7 +6,7 @@
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-fluid">
       <div class="navbar-brand">
-        <img src="../assets/navbar/esf-logo.png" class="img-fluid" alt="Engenheiros Sem Fronteiras Rio de Janeiro Logo"
+        <img src="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/src/assets/navbar/esf-logo.png" class="img-fluid" alt="Engenheiros Sem Fronteiras Rio de Janeiro Logo"
           width="150" height="200">
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
