@@ -19,27 +19,30 @@ onBeforeUnmount(() => {
 
 <template>
 
-  <div class="esf-image-background position-relative rounded">
-    <div class="esf-image-color-background row">
-      <div class="text-start text-light d-flex justify-content-center">
-        <h1>Contato</h1>
+<div class="row mb-4">
+    <div class="col">
+      <div class="position-relative text-center">
+        <img src="../assets/contact/Galera-nova-AGE-scaled.jpg" class="img-fluid w-100 rounded" id="cropped-image" alt="Imagem Doação">
+        <div class="overlay rounded"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+          <h1 class="text-light">Contato</h1>
+        </div>
       </div>
     </div>
   </div>
-
-
-  <div class="row justify-content-center mt-5">
-    <div class="col-12 col-md-10 d-flex flex-column">
-      <div class="mb-4">
-        <img src="../assets/contact/Foto-voluntario-1024x768.jpg" alt="Logo" class="img-fluid"
-          style="width: 500px;">
-      </div>
-      <div class="mb-3">
+  <div class="row mt-5">
+    <div class="col mb-4" v-if="!isMobile">
+      <img src="../assets/contact/Foto-voluntario-1024x768.jpg" alt="Logo" class="img-fluid"
+        style="width: 500px;">
+    </div>
+    <div class="col mb-4">
+      <p>
+        Utilize o email 
         <a href="mailto:contato@esf-rio.org" target="_blank" class=" text-decoration-none fs-6" style="color: #1da879;">
-          <i class="fas fa-envelope" aria-hidden="true"></i>
           <span class="link-text"> contato@esf-rio.org</span>
-        </a>
-      </div>
+        </a> 
+        ou as redes sociais abaixo para contatos relativos à sugestões de projetos, dúvidas, reclamações, agradecimentos e depoimentos.
+      </p>
       <div class="d-flex gap-3">
         <a href="https://www.facebook.com/esf.riodejaneiro" target="_blank" class="social-icon fs-6">
           <i class="fab fa-facebook"></i>
@@ -56,29 +59,24 @@ onBeforeUnmount(() => {
       </div>
     </div>
   </div>
-
-
-  <div class="row g-1 mt-5">
-    <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Filipe_New-1024x1024.png" class="img-fluid" alt="Foto 1">
-    </div>
-    <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Cladice_New-1024x1024.png" class="img-fluid" alt="Foto 2">
-    </div>
-    <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Roberta_New-1024x1024.png" class="img-fluid" alt="Foto 3">
-    </div>
-    <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Ane_New-1024x1024.png" class="img-fluid" alt="Foto 4">
-    </div>
-    <div class="col-custom">
-      <img src="../assets/contact/people/Esf_Camilla_New-1024x1024.png" class="img-fluid" alt="Foto 5">
-    </div>
-  </div>
-
 </template>
 
 <style scoped>
+#cropped-image {
+  object-fit: cover;
+  object-position: center center;
+  height: 400px
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 169, 122, 0.8);
+}
+
 .esf-image-background {
   background-image: url("../assets/contact/Galera-nova-AGE-scaled.jpg");
   background-size: cover;

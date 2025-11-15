@@ -19,10 +19,13 @@
             <a class="nav-link link-success" href="#/about">Sobre Nós</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-success" href="#/partnership">Parceria</a>
+            <a class="nav-link link-success" href="#/team">Equipe</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-success" href="#/volunteer">Voluntariado</a>
+            <a class="nav-link link-success" href="#/donate">Doação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-success" href="#/transparency">Transparência</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle link-success" href="#" role="button" data-bs-toggle="dropdown"
@@ -41,30 +44,10 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item link-success" href="#/faq">F.A.Q</a></li>
               <li><a class="dropdown-item link-success" href="#/contact">Contato</a></li>
+              <li><a class="dropdown-item link-success" href="#/partnership">Parceria</a></li>
+              <li><a class="dropdown-item link-success" href="#/volunteer">Voluntariado</a></li>
             </ul>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link link-success" href="#/team">Equipe</a>
-          </li> -->
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Trabalhe Conosco
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Voluntariado</a></li>
-              <li><a class="dropdown-item" href="#">Parceria</a></li>
-            </ul>
-          </li>-->
-          <!-- <li class="nav-item">
-            <a class="nav-link link-success" href="#/transparency">Transparência</a>
-          </li>
-         
-          <li class="nav-item">
-            <a class="nav-link" href="#">Doação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
-          </li> -->
         </ul>
 
         <div class="row text-center">
