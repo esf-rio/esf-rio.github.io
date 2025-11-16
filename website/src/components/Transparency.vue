@@ -45,7 +45,7 @@ onBeforeUnmount(() => {
         <div class="card-body">
           <h5 class="text-esf">Fundação <i class="bi bi-building"></i> </h5>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/transparency/Ata-de-Fundacao.pdf" class="card-link">Ata de fundação (PDF)</a></li>
+            <li class="list-group-item"><a href="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/public/transparency/Ata-de-Fundacao.pdf" class="card-link">Ata de fundação (PDF)</a></li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,7 @@ onBeforeUnmount(() => {
         <div class="card-body">
           <h5 class="text-esf">Estatuto <i class="bi bi-pencil"></i> </h5>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/transparency/Estatuto-Social.pdf" class="card-link">Estatuto Social (PDF)</a></li>
+            <li class="list-group-item"><a href="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/public/transparency/Estatuto-Social.pdf" class="card-link">Estatuto Social (PDF)</a></li>
           </ul>
         </div>
       </div>
@@ -69,7 +69,7 @@ onBeforeUnmount(() => {
         <div class="card-body">
           <h5 class="text-esf">Ato Normativo <i class="bi bi-newspaper"></i> </h5>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/transparency/ANC012025_Ato Normativo Conjunto membresia 24-25.pdf" class="card-link">Ato Normativo Conjunto nº1 29/01/2025 (PDF)</a></li>
+            <li class="list-group-item"><a href="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/public/transparency/ANC012025_Ato%20Normativo%20Conjunto%20membresia%2024-25.pdf" class="card-link">Ato Normativo Conjunto nº1 29/01/2025 (PDF)</a></li>
           </ul>
         </div>
       </div>
@@ -81,7 +81,7 @@ onBeforeUnmount(() => {
         <div class="card-body">
           <h5 class="text-esf">Certidões <i class="bi bi-patch-check-fill"></i> </h5>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/transparency/Registro-CNPJ-2022.pdf" class="card-link">Registro do CNPJ (PDF)</a></li>
+            <li class="list-group-item"><a href="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/public/transparency/Registro-CNPJ-2022.pdf" class="card-link">Registro do CNPJ (PDF)</a></li>
           </ul>
         </div>
       </div>
@@ -95,8 +95,8 @@ onBeforeUnmount(() => {
         <div class="card-body">
           <h5 class="text-esf">Assembleia Geral <i class="bi bi-people-fill"></i> </h5>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/transparency/[site] documentos institucionais com dados anonimizados (A4) - Assembleia Geral - AGO-29-08-2020.pdf" class="card-link">Assembleia Geral Ordinária - 25/01/2020 (PDF)</a></li>
-            <li class="list-group-item"><a href="/transparency/[site] documentos institucionais com dados anonimizados (A4) - Assembleia Geral - AGE-25-01-2020.pdf" class="card-link">Assembleia Geral Extraordinária - 29/08/2020 (PDF)</a></li>
+            <li class="list-group-item"><a href="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/public/transparency/[site]%20documentos%20institucionais%20com%20dados%20anonimizados%20(A4)%20-%20Assembleia%20Geral%20-%20AGO-29-08-2020.pdf" class="card-link">Assembleia Geral Ordinária - 25/01/2020 (PDF)</a></li>
+            <li class="list-group-item"><a href="https://media.githubusercontent.com/media/esf-rio/esf-rio.github.io/main/website/public/transparency/[site]%20documentos%20institucionais%20com%20dados%20anonimizados%20(A4)%20-%20Assembleia Geral%20-%20AGE-25-01-2020.pdf" class="card-link">Assembleia Geral Extraordinária - 29/08/2020 (PDF)</a></li>
           </ul>
         </div>
       </div>
