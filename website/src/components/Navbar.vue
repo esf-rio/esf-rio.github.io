@@ -29,12 +29,23 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle link-success" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+              data-bs-auto-close="outside" aria-expanded="false">
               Projetos
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item link-success" href="#/covid">(COVID-19)</a></li>
-              <li><a class="dropdown-item link-success" href="#/prover">Revista PROVER</a></li>
+              <li>
+                <div class="btn-group dropend w-100">
+                  <a class="dropdown-item link-success" href="#/prover">Revista PROVER</a>
+                  <a class="dropdown-item dropdown-toggle dropdown-toggle-split link-success flex-grow-0"
+                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Abrir edições</span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item link-success" href="#/magazine/prover">Edição 1</a></li>
+                  </ul>
+                </div>
+              </li>
             </ul>
           </li>
               <li class="nav-item dropdown">
