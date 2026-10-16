@@ -42,7 +42,7 @@
                     <span class="visually-hidden">Abrir edições</span>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item link-success" href="#/magazine/prover">Edição 1</a></li>
+                    <li><a class="dropdown-item link-success" href="#/prover/edition/1">Edição 1</a></li>
                   </ul>
                 </div>
               </li>
